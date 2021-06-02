@@ -38,8 +38,8 @@ class Header extends Component {
             title: '确定退出?',
             icon: <ExclamationCircleOutlined />,
             content: '退出登录需要重新登录信息',
-            canelText: '取消',
-            okText: '确认',
+            cancelText: '取消',
+            okText: '确定',
             onOk() {
               deleteUser()
             },
